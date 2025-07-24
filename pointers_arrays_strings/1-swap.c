@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * swap - swap two int values
+ * @a: First value
+ * @b: Second value
  *
  * Return: void
  */
