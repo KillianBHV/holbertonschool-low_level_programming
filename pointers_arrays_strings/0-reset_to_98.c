@@ -1,5 +1,8 @@
 #include "main.h"
-/* @parameter: Replace any value by 98 */
+/* 
+ * reset_to_98 - reset pointed value by 98
+ * @n: Replace any value by 98 
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
