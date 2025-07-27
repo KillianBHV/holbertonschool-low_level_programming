@@ -10,5 +10,16 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	return strcpy(dest, src);
+	char *p;
+
+	p = test;
+	while(*src != '\0)
+	{
+		*dest = *src;
+		dest++;
+		src++
+	}
+	*dest = '\0';
+	
+	return (p);
 }
