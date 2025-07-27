@@ -22,11 +22,11 @@ void puts_half(char *str)
 
 	if (n % 2 == 0)
 	{
-		s = str + (n/2);
+		s = str + (n / 2);
 	}
 	else
 	{
-		s = str + ((n+1)/2);
+		s = str + ((n + 1) / 2);
 	}
 
 	while (*s != '\0')
