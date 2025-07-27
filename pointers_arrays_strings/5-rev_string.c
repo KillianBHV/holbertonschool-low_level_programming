@@ -2,6 +2,7 @@
 
 /**
  * rev_string - reverse the specified string
+ * @s: string to reverse
  *
  * Return: Nothing.
  */
@@ -15,12 +16,15 @@ void rev_string(char *s)
 	{
 		r += 1;
 	}
-	r -= 1;
+	r--;
 
 	while (r > s)
 	{
 		c = *s;
 		*s = *r;
 		*r = c;
+
+		s++;
+		r--;
 	}
 }
