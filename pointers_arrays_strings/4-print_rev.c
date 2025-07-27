@@ -16,6 +16,9 @@ void print_rev(char *s)
 		p += 1;
 	}
 
+	_putchar(*p);
+	_putchar('\n');
+
 	while (p >= s)
 	{
 		_putchar(*p);
