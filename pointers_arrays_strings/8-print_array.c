@@ -9,7 +9,9 @@
  */
 void print_array(int *a, int b)
 {
-	for(int i = 0; i < b; i++)
+	int i;
+
+	for(i = 0; i < b; i++)
 	{
 		printf("%d", *(a+i));
 		if (i < (b - 1))
