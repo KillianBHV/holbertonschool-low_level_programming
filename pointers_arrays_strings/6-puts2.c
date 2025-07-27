@@ -14,7 +14,6 @@ void puts2(char *str)
 	{
 		end++;
 	}
-	end--;
 
 	while(str < end)
 	{
