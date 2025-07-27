@@ -12,17 +12,12 @@ void print_rev(char *s)
 
 	p = s;
 	while (*p != '\0')
-	{
-		p += 1;
-	}
-
-	_putchar(*p);
-	_putchar('\n');
+		p++;
 
 	while (p >= s)
 	{
 		_putchar(*p);
-		p -= 1;
+		p--;
 	}
 	_putchar('\n');
 }
