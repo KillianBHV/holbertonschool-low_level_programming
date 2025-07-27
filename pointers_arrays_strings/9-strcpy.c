@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * strcpy - copy a source buffer to a destination buffer
@@ -12,7 +11,7 @@ char *_strcpy(char *dest, char *src)
 {
 	char *p;
 
-	p = test;
+	p = dest;
 	while(*src != '\0)
 	{
 		*dest = *src;
