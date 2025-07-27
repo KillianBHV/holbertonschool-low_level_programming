@@ -4,21 +4,19 @@
 /**
  * print_array - print the elements of an array
  * @a: pointer to an array
- * @b: size of the pointed array
+ * @n: size of the pointed array
  *
  * Return: Nothing
  */
-void print_array(int *a, int b)
+void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < b; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", *(a + i));
-		if (i < (b - 1))
-		{
+		if (i != (n - 1))
 			printf(", ");	
-		}
 	}
 	printf("\n");
 }
