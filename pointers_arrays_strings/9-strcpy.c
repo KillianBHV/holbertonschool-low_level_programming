@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * strcpy - copy a source buffer to a destination buffer
