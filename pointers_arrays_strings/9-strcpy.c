@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcpy - copy a source buffer to a destination buffer
+ * _strcpy - copy a source buffer to a destination buffer
  * @dest: Final Buffer
  * @src: Original Buffer
  *
